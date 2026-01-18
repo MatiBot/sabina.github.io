@@ -569,6 +569,23 @@ body {
     text-align: center;
 }
 
+.footer-domain {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    opacity: 0.8;
+}
+
+.footer-domain a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-domain a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
